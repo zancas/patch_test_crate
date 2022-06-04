@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 clap = "*"
+
+[patch.crates-io]
+libc = { git = "https://github.com/zingolabs/thisdoesnotexist.git" }
